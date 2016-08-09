@@ -14,6 +14,7 @@ ENV STACKSMITH_STACK_ID="2vmu83j" \
     STACKSMITH_STACK_PRIVATE="1"
 
 ## STACKSMITH-END: Modifications below this line will be unchanged when regenerating
+
 RUN apt-get update
 RUN apt-get install -y open-cobol
 
